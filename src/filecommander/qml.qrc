@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>AppContent.qml</file>
+        <file>DirectoryPanel.qml</file>
+    </qresource>
+</RCC>
