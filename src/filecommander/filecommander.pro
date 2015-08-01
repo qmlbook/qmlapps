@@ -1,10 +1,17 @@
 TEMPLATE = app
 
+DESTDIR = $$PWD/../bin/
+
 QT += qml quick widgets
+
+CONFIG += c++11
 
 SOURCES += main.cpp \
     core.cpp \
-    filesystem.cpp
+    filesystem.cpp \
+    qmlicon.cpp \
+    filemanager.cpp \
+    common.cpp
 
 RESOURCES += qml.qrc
 
@@ -16,4 +23,7 @@ include(deployment.pri)
 
 HEADERS += \
     core.h \
-    filesystem.h
+    filesystem.h \
+    common.h \
+    qmlicon.h \
+    filemanager.h

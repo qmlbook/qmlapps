@@ -1,4 +1,5 @@
 #include "core.h"
+#include "filesystem.h"
 
 Core::Core(QObject *parent) :
     QObject(parent)

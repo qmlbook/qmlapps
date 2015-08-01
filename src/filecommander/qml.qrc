@@ -3,5 +3,14 @@
         <file>main.qml</file>
         <file>AppContent.qml</file>
         <file>DirectoryPanel.qml</file>
+        <file>LabelCellDelegate.qml</file>
+        <file>icons/folder.svg</file>
+        <file>ImageCellDelegate.qml</file>
+        <file>common/UI.qml</file>
+        <file>common/Object.qml</file>
+        <file>common/qmldir</file>
+        <file>EditorPanel.qml</file>
+        <file>DirectorySplitScreen.qml</file>
+        <file>Actions.qml</file>
     </qresource>
 </RCC>
