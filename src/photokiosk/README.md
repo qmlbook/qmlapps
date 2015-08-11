@@ -1,0 +1,4 @@
+- Use P prefix for qml types to avoid possible name clashes with QtQuickControls.
+- The content stack (stackview) is responsible to switch the central area
+- the toolbar is on the bottom of the screen ans will contain some buttons
+- the status bar will content the info on the current photo and the time
